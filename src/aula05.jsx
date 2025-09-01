@@ -22,17 +22,31 @@ const styles = StyleSheet.create({
   },
 
   caixa1: {
-    flex: 1,
+    height: 100,
     backgroundColor: 'red',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: 'white',
+    fontSize: 20
   },
 
   caixa2: {
    flex: 1,
    backgroundColor: 'green',
+   alignItems: 'center',
+   justifyContent: 'center',
+   color: 'white',
+   fontSize: 20
+   
 },
   caixa3: {
-   flex: 1,
+
    backgroundColor: 'blue',
+   height: 100,
+   alignItems: 'center',
+   justifyContent: 'center',
+   color: 'white',
+   fontSize: 20
 }
 })
 
